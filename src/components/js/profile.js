@@ -1,6 +1,6 @@
 import React from "react"
-import profileStyles from './profile.module.css'
-import Face from "../images/in208213147509118215334.png"
+import profileStyles from '../css/profile.module.css'
+import Face from "../../images/in208213147509118215334.png"
 
 export default function Profile() {
   return (

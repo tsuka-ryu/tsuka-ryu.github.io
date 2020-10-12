@@ -1,5 +1,5 @@
 import React from "react"
-import contactStyles from './contact.module.css'
+import contactStyles from '../css/contact.module.css'
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'

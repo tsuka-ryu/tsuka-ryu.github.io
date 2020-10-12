@@ -1,6 +1,6 @@
 import React from "react"
 import DevIcon from "devicon-react-svg";
-import skillstyle from './skill.module.css'
+import skillstyle from '../css/skill.module.css'
 
 const devIconStyle = {
   width: "100px",

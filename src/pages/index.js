@@ -1,10 +1,10 @@
 import React from "react"
 import Helmet from "react-helmet"
-import Layout from "../components/layout"
-import Profile from "../components/profile"
-import Skill from "../components/skill"
-import Works from "../components/works"
-import Contact from "../components/contact"
+import Layout from "../components/js/layout"
+import Profile from "../components/js/profile"
+import Skill from "../components/js/skill"
+import Works from "../components/js/works"
+import Contact from "../components/js/contact"
 
 export default function About() {
   return (

@@ -1,6 +1,6 @@
 import React from "react"
-import worksStyle from './works.module.css'
-import myportfolio from "../images/myportfolio.png"
+import worksStyle from '../css/works.module.css'
+import myportfolio from "../../images/myportfolio.png"
 import { Link } from "gatsby"
 import DevIcon from "devicon-react-svg";
 
