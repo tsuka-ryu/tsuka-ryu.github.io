@@ -1,0 +1,28 @@
+.skillwrapper {
+  padding: 50px 0 150px 0;
+}
+.container {
+  margin: 0 auto;
+  text-align: center;
+  height: 600px;
+  width: 800px;
+}
+.container h1 {
+  letter-spacing: 5px;
+  font-size:40px;
+  margin-bottom: 10px;
+}
+.container h4 {
+  margin-top: 0;
+}
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill {
+  float: left;
+  flex:auto;
+  width: 33%;  
+  height:300px;
+  opacity: 0.8;
+}

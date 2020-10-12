@@ -1,0 +1,35 @@
+.workswrapper {
+  padding: 50px 0 100px 0;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  height:700px;
+  width: 1200px;
+}
+.heading h1 {
+  letter-spacing: 5px;
+  font-size:40px;
+  margin-bottom: 10px;
+}
+.heading h4 {
+  margin-top: 0;
+}
+.works{
+  display: flex;
+  flex-wrap: wrap;
+}
+.work {
+  float: left;
+  flex:auto;
+  width: 50%;
+}
+.work img{
+  width:500px;
+}
+.work img:hover{
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+  transform: translateY(-5px);
+  transition-duration: 0.4s;
+}

@@ -1,0 +1,28 @@
+.profile {
+  padding: 50px 0 150px 0;
+  background-color:#f7f7f7;
+  text-align: center;
+}
+.profile .container {
+  margin: 0 auto;
+  height:400px;
+  width: 800px;
+}
+.profile .container h1 {
+  letter-spacing: 5px;
+  font-size:40px;
+  margin-bottom: 10px;
+}
+.profile .container h4 {
+  margin-top: 0;
+}
+.profile .container img{
+  border-radius: 50%;
+  float: left;
+  margin-top:10px;
+  margin-right: 100px;
+}
+.profile .container p{
+  text-align: left;
+  padding:50px 0 50px 0;
+}
