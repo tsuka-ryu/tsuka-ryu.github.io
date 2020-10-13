@@ -16,7 +16,7 @@ export default function Layout({ children }) {
           <button onClick={() => scrollTo('#profile')} className={styles.nav}>PROFIEL</button>
           <button onClick={() => scrollTo('#skill')} className={styles.nav}>SKILL</button>
           <button onClick={() => scrollTo('#works')} className={styles.nav}>WORKS</button>
-          <button onClick={() => scrollTo('#contact','end')} className={styles.nav}>CONTACT</button>
+          <button onClick={() => scrollTo('#contact')} className={styles.nav}>CONTACT</button>
         </ul>
       </header>
 
