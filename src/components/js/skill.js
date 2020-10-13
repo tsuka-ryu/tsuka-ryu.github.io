@@ -3,12 +3,12 @@ import DevIcon from "devicon-react-svg";
 import skillstyle from '../css/skill.module.css'
 
 const devIconStyle = {
-  width: "100px",
+  width: "80px",
 };
 
 export default function Skill() {
   return (
-    <div className={skillstyle.skillWrapper}>
+    <div className={skillstyle.skillWrapper} id="skill">
       <div className={skillstyle.container}>
         <div className={skillstyle.heading}>
           <h1>SKILL</h1>

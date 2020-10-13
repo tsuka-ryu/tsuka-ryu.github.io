@@ -4,7 +4,7 @@ import Face from "../../images/in208213147509118215334.png"
 
 export default function Profile() {
   return (
-    <div className={profileStyles.profile}>
+    <div className={profileStyles.profile} id="profile">
       <div className={profileStyles.container}>
         <h1>PROFILE</h1>
         <h4>自己紹介</h4>

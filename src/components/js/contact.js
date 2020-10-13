@@ -7,7 +7,7 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 export default function Contact() {
   return (
-    <div className={contactStyles.contact}>
+    <div className={contactStyles.contact} id="contact">
       <div className={contactStyles.container}>
         <h1>CONTACT</h1>
         <h4>お問い合わせは、SNSかメールでお願いいたします。</h4>

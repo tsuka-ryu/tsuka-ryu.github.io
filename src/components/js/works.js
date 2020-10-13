@@ -7,7 +7,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function Works() {
   return (
-    <div className={worksStyle.workswrapper}>
+    <div className={worksStyle.workswrapper} id="works">
       <div className={worksStyle.container}>
         <div className={worksStyle.heading}>
           <h1>WORKS</h1>
