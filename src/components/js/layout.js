@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import styles from "../css/layout.module.css"
 import scrollTo from 'gatsby-plugin-smoothscroll';
 
