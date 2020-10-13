@@ -8,7 +8,7 @@ const devIconStyle = {
 
 export default function Skill() {
   return (
-    <div className={skillstyle.skillwrapper}>
+    <div className={skillstyle.skillWrapper}>
       <div className={skillstyle.container}>
         <div className={skillstyle.heading}>
           <h1>SKILL</h1>

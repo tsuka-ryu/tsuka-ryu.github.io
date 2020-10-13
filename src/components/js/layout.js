@@ -10,7 +10,7 @@ export default function Layout({ children }) {
           <p>@tsuka_ryu</p>
       </div>
 
-      <header className={styles.header}>
+      <header className={styles.header + ' ' +styles.fixed}>
         <ul>
           <Link to="/" className={styles.nav} >PROFIEL</Link>
           <Link to="/" className={styles.nav} >SKILL</Link>

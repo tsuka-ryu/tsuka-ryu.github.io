@@ -2,13 +2,10 @@ import React from "react"
 import worksStyle from '../css/works.module.css'
 import myportfolio from "../../images/myportfolio.png"
 import { Link } from "gatsby"
-import DevIcon from "devicon-react-svg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
-const devIconStyle = {
-  width: "50px",
-};
-
-export default function works() {
+export default function Works() {
   return (
     <div className={worksStyle.workswrapper}>
       <div className={worksStyle.container}>
@@ -21,13 +18,13 @@ export default function works() {
             <img src={myportfolio} alt="myportfolio" />
             <div className={worksStyle.textcontent}>
               <div className={worksStyle.title}>
-                <p>ポートフォリオ</p>
+                <h4>ポートフォリオ</h4>
               </div>
               <div className={worksStyle.disc}>
                 <p>自分自身のポートフォリオです</p>
                 <p>HTML/CSS/React/Gatsby</p>
-                <Link to="/">
-                  <DevIcon icon="github" style={devIconStyle} />
+                <Link to="/" className={worksStyle.icon}>
+                  <FontAwesomeIcon icon={faGithub} size="2x" />
                 </Link>
               </div>
             </div>
@@ -37,13 +34,13 @@ export default function works() {
             <img src={myportfolio} alt="myportfolio" />
             <div className={worksStyle.textcontent}>
               <div className={worksStyle.title}>
-                <p>映画レビューサイト</p>
+                <h4>映画レビューサイト</h4>
               </div>
               <div className={worksStyle.disc}>
                 <p>制作中の映画レビュー投稿サイトです</p>
                 <p>HTML/SCSS/Ruby on Rails</p>
-                <Link to="/">
-                  <DevIcon icon="github" style={devIconStyle} />
+                <Link to="/" className={worksStyle.icon}>
+                  <FontAwesomeIcon icon={faGithub} size="2x" />
                 </Link>
               </div>
             </div>

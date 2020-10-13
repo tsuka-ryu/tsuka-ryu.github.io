@@ -7,10 +7,21 @@ ul {
   padding-inline-start: 0px;
 }
 .header {
-  background-color: white;
+  background-color: rgba(255, 255, 255);
   text-align: center;
   padding: 20px 30px;
   font-size: 20px;
+}
+.fixed{
+  background-color: rgba(255, 255, 255);
+  text-align: center;
+  padding: 20px 30px;
+  font-size: 20px;
+
+  position:fixed;
+  top:0;
+  width: 100%;
+  z-index:10;
 }
 .header .nav {
   text-decoration: none;

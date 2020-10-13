@@ -1,28 +1,33 @@
 .profile {
-  padding: 50px 0 150px 0;
-  background-color:#f7f7f7;
-  text-align: center;
-}
-.profile .container {
+  padding: 100px 0 150px 0;
+  background-color: #f7f7f7;
   margin: 0 auto;
   height:400px;
-  width: 800px;
+}
+.container {
+  padding: 0 100px 0 100px;
+  text-align: center;
+  height:400px;
 }
 .profile .container h1 {
   letter-spacing: 5px;
-  font-size:40px;
-  margin-bottom: 10px;
+  font-size: 40px;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 .profile .container h4 {
-  margin-top: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-weight: normal;
 }
-.profile .container img{
+.profile .container img {
   border-radius: 50%;
   float: left;
-  margin-top:10px;
-  margin-right: 100px;
+  margin:50px;
 }
-.profile .container p{
+.profile .container p {
+  margin-block-start: 50px;
+  margin-block-end: 50px;
   text-align: left;
-  padding:50px 0 50px 0;
+  padding:40px 0;
 }
