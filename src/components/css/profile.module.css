@@ -24,6 +24,7 @@
   border-radius: 50%;
   float: left;
   margin:50px;
+  width:100px;
 }
 .profile .container p {
   margin-block-start: 50px;

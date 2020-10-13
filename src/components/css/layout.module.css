@@ -90,3 +90,13 @@ ul {
   letter-spacing: 5px;
   opacity: 0.8;
 }
+
+/* タブレット向けレイアウト */
+@media(max-width: 1000px){
+
+}
+
+/* スマートフォン向けレイアウト */
+@media(max-width: 670px){
+  
+}
