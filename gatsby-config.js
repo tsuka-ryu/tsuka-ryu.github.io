@@ -9,6 +9,19 @@ module.exports = {
     title: `Portfolio`,
   },
   plugins: [
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+        {
+          resolve: "gatsby-remark-external-links",
+          options: {
+            rel: "noopener noreferrer"
+          }
+        }
+        ]
+      }
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-smoothscroll`,
   ],

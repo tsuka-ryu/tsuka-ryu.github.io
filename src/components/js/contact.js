@@ -13,7 +13,7 @@ export default function Contact() {
         <h4>お問い合わせは、SNSかメールでお願い致します</h4>
         <div className={contactStyles.icons}>
 
-          <Link to="/" className={contactStyles.icon}>
+          <Link to="https://twitter.com/tsuka_ryu" className={contactStyles.icon}>
             <FontAwesomeIcon icon={faTwitter} size="3x" />
           </Link>
 

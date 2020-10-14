@@ -1,6 +1,7 @@
 import React from "react"
 import worksStyle from '../css/works.module.css'
 import myportfolio from "../../images/myportfolio.png"
+import filmreview from "../../images/filmreview.png"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -23,7 +24,7 @@ export default function Works() {
               <div className={worksStyle.disc}>
                 <p>自分自身のポートフォリオです</p>
                 <p>HTML/CSS/React/Gatsby</p>
-                <Link to="/" className={worksStyle.icon}>
+                <Link to="https://github.com/tsuka-ryu/tsuka-ryu.github.io" className={worksStyle.icon}>
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </Link>
               </div>
@@ -31,7 +32,7 @@ export default function Works() {
           </div>
 
           <div className={worksStyle.work}>
-            <img src={myportfolio} alt="myportfolio" />
+            <img src={filmreview} alt="filmreview" />
             <div className={worksStyle.textcontent}>
               <div className={worksStyle.title}>
                 <h4>映画レビューサイト</h4>
@@ -39,7 +40,7 @@ export default function Works() {
               <div className={worksStyle.disc}>
                 <p>制作中の映画レビュー投稿サイトです</p>
                 <p>HTML/SCSS/Ruby on Rails</p>
-                <Link to="/" className={worksStyle.icon}>
+                <Link to="" className={worksStyle.icon}>
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </Link>
               </div>
