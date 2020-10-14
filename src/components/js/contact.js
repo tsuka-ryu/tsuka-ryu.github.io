@@ -15,11 +15,13 @@ export default function Contact() {
 
           <Link to="https://twitter.com/tsuka_ryu" className={contactStyles.icon}>
             <FontAwesomeIcon icon={faTwitter} size="3x" />
+            <p>@tsuka_ryu</p>
           </Link>
 
-          <Link to="/" className={contactStyles.icon}>
+          <div to="" className={contactStyles.icon}>
             <FontAwesomeIcon icon={faEnvelope} size="3x" />
-          </Link>
+            <p>drgon8otsuka@gmail.com</p>
+          </div>
 
         </div>
       </ div>

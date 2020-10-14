@@ -62,7 +62,7 @@ export default function Skill() {
                 <p>Node.js</p>
               </div>
                 <div className={skillstyle.rate}>
-                  <p>★★★☆☆</p>
+                  <p>★★☆☆☆</p>
               </div>
               <div className={skillstyle.disc}>
                 ＊参考＊<br></br>
@@ -80,7 +80,7 @@ export default function Skill() {
                 <p>Ruby on Rails</p>
               </div>
                 <div className={skillstyle.rate}>
-                  <p>★★★★☆</p>
+                  <p>★★★☆☆</p>
               </div>
               <div className={skillstyle.disc}>
                 ＊参考＊<br></br>

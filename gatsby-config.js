@@ -22,6 +22,12 @@ module.exports = {
         ]
       }
     },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: ['gatsby-remark-code-buttons']
+      }
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-smoothscroll`,
   ],
