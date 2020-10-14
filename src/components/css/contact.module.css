@@ -5,7 +5,7 @@
   height: 500px;
 }
 .container {
-  padding: 0 100px 0 100px;
+  padding: 0 300px 0 300px;
   text-align: center;
 }
 .container h1 {
@@ -27,7 +27,7 @@
 .icon {
   float: left;
   flex: auto;
-  width: 30%;
+  width: 50%;
   color: initial;
   opacity: 0.8;
 }
