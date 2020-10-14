@@ -6,8 +6,10 @@ export default function Layout({ children }) {
   return (
     <div>
       <div className={styles.topwrapper}>
-        <h1>PORTFOLIO</h1>
-        <p>@tsuka_ryu</p>
+        <div className={styles.container}>
+          <h1>PORTFOLIO</h1>
+          <p>@tsuka_ryu</p>
+        </div>
       </div>
 
       <header className={styles.header + ' ' + styles.fixed} id="header">
@@ -23,10 +25,10 @@ export default function Layout({ children }) {
 
       <footer className={styles.footer}>
         <ul>
-        <button onClick={() => scrollTo('#profile')} className={styles.nav}>PROFIEL</button>
+          <button onClick={() => scrollTo('#profile')} className={styles.nav}>PROFIEL</button>
           <button onClick={() => scrollTo('#skill')} className={styles.nav}>SKILL</button>
           <button onClick={() => scrollTo('#works')} className={styles.nav}>WORKS</button>
-          <button onClick={() => scrollTo('#contact','end')} className={styles.nav}>CONTACT</button>
+          <button onClick={() => scrollTo('#contact', 'end')} className={styles.nav}>CONTACT</button>
         </ul>
         <p>Copyright©@tsuka_ryu. All Rights Reserved.</p>
       </footer>

@@ -2,12 +2,12 @@
   padding: 100px 0 200px 0;
   background-color: #f7f7f7;
   margin: 0 auto;
-  height:400px;
+  height: 650px;
 }
 .container {
   padding: 0 100px 0 100px;
   text-align: center;
-  height:400px;
+  height: 400px;
 }
 .profile .container h1 {
   letter-spacing: 5px;
@@ -20,15 +20,54 @@
   margin-block-end: 0;
   font-weight: normal;
 }
+.profile .disc {
+  width: 100%;
+  margin: 50px 0;
+}
 .profile .container img {
   border-radius: 50%;
   float: left;
-  margin:50px;
-  width:100px;
+  margin: 50px;
+  width: 20%;
 }
 .profile .container p {
-  margin-block-start: 50px;
-  margin-block-end: 50px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 50px 0;
+  width: 100%;
   text-align: left;
-  padding:40px 0;
+}
+
+/* タブレット向けレイアウト */
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 50px;
+  }
+  .profile {
+    height: 700px;
+  }
+}
+
+/* スマートフォン向けレイアウト */
+@media (max-width: 670px) {
+
+  .profile .container img {
+    margin: 20px;
+    float: none;
+    width: 30%;
+  }
+  .profile .container h1 {
+    letter-spacing: 2px;
+    font-size: 22px;
+  }
+  .profile .container h4 {
+    font-size: 12px;
+  }
+  .profile .container p {
+    padding: 0;
+    font-size:14px;
+  }
+  .profile .disc {
+    margin: 0;
+  }
 }

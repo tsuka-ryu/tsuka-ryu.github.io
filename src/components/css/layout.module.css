@@ -1,4 +1,4 @@
-button{
+button {
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -13,23 +13,29 @@ ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 0px;
+  width: 100%;
+  padding: 0 20%;
 }
 .header {
   background-color: rgba(255, 255, 255);
   text-align: center;
-  /* padding: 20px 30px; */
   font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
-.fixed{
+.fixed {
   background-color: rgba(255, 255, 255);
   text-align: center;
-  /* padding: 20px 30px; */
   font-size: 20px;
-
-  position:fixed;
-  top:0;
   width: 100%;
-  z-index:10;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
 }
 .header .nav {
   text-decoration: none;
@@ -38,6 +44,10 @@ ul {
   opacity: 0.8;
   padding: 20px 30px;
   transition: all 0.4s;
+
+  float: left;
+  flex: auto;
+  width: 25%;
 }
 .header .nav:hover {
   opacity: 0.6;
@@ -75,10 +85,16 @@ ul {
 .topwrapper {
   background-image: url(../../images/notebook-1284085_1920.jpg);
   background-size: cover;
-  height: 400px;
   padding: 150px 100px 150px 100px;
   text-align: center;
+  display: table;
   color: #f7f7f7;
+  height: 700px;
+  width: 100%;
+}
+.container {
+  display: table-cell;
+  vertical-align: middle;
 }
 .topwrapper h1 {
   font-size: 64px;
@@ -92,11 +108,46 @@ ul {
 }
 
 /* タブレット向けレイアウト */
-@media(max-width: 1000px){
-
+@media (max-width: 1000px) {
+  .topwrapper {
+    height: 1000px;
+    width: 100%;
+  }
+  .topwrapper h1 {
+    font-size: 64px;
+  }
+  .topwrapper p {
+    font-size: 20px;
+  }
+  ul{
+    padding:0;
+  }
+  .header .nav {
+    font-size:15px;
+    padding: 10px 15px;
+    width:25%;
+  }
 }
 
 /* スマートフォン向けレイアウト */
-@media(max-width: 670px){
-  
+@media (max-width: 670px) {
+  .topwrapper {
+    height: 700px;
+    width: 100%;
+    padding: 0;
+  }
+  .topwrapper h1 {
+    font-size: 32px;
+  }
+  .topwrapper p {
+    font-size: 15px;
+  }
+  ul{
+    padding:0;
+  }
+  .header .nav {
+    font-size:15px;
+    padding: 10px 15px;
+    width:50%;
+  }
 }

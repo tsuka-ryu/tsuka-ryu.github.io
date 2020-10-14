@@ -10,15 +10,15 @@ export default function Contact() {
     <div className={contactStyles.contact} id="contact">
       <div className={contactStyles.container}>
         <h1>CONTACT</h1>
-        <h4>お問い合わせは、SNSかメールでお願いいたします。</h4>
+        <h4>お問い合わせは、SNSかメールでお願い致します</h4>
         <div className={contactStyles.icons}>
 
           <Link to="/" className={contactStyles.icon}>
-            <FontAwesomeIcon icon={faTwitter} size="8x" />
+            <FontAwesomeIcon icon={faTwitter} size="3x" />
           </Link>
 
           <Link to="/" className={contactStyles.icon}>
-            <FontAwesomeIcon icon={faEnvelope} size="8x" />
+            <FontAwesomeIcon icon={faEnvelope} size="3x" />
           </Link>
 
         </div>

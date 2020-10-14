@@ -1,7 +1,7 @@
 .contact {
-  padding: 100px 0 0 0;
+  padding: 100px 0 100px 0;
   margin: 0 auto;
-  height: 450px;
+  height: 500px;
 }
 .container {
   padding: 0 100px 0 100px;
@@ -19,10 +19,45 @@
   font-weight: normal;
 }
 .icons {
-  padding:100px 0 100px 0;
+  padding: 50px 0 50px 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 .icon {
-  margin: 100px;
+  float: left;
+  flex: auto;
+  width: 30%;
   color: initial;
   opacity: 0.8;
+}
+
+/* タブレット向けレイアウト */
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 50px;
+  }
+}
+
+/* スマートフォン向けレイアウト */
+@media (max-width: 670px) {
+  .container h1 {
+    letter-spacing: 2px;
+    font-size: 22px;
+  }
+  .container h4 {
+    font-size: 12px;
+  }
+  .workswrapper {
+    height: 1000px;
+  }
+  .heading h4 {
+    margin-block-end: 25px;
+  }
+  .work {
+    width: 100%;
+    margin: 25px 0;
+  }
+  .icon {
+    width: 50%;
+  }
 }
