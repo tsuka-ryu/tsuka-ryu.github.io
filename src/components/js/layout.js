@@ -14,7 +14,7 @@ export default function Layout({ children }) {
 
       <header className={styles.header + ' ' + styles.fixed} id="header">
         <ul>
-          <button onClick={() => scrollTo('#profile')} className={styles.nav}>PROFIEL</button>
+          <button onClick={() => scrollTo('#profile')} className={styles.nav}>PROFILE</button>
           <button onClick={() => scrollTo('#skill')} className={styles.nav}>SKILL</button>
           <button onClick={() => scrollTo('#works')} className={styles.nav}>WORKS</button>
           <button onClick={() => scrollTo('#contact')} className={styles.nav}>CONTACT</button>
