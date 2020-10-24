@@ -37,7 +37,7 @@
 Ruby on Railsチュートリアルを一通りこなしたとはいえ、理解不足の部分が大いにありますので、<br>
 作りながらキャッチアップしていきたいと思います。<br>
 
-また、AWSやCircleCICircleCI、Dockerなど技術も触れていきたいと思っています。<br>
+また、AWSやCircleCI、Dockerなど技術も触れていきたいと思っています。<br>
 
 ## URL
 https://tsuka-ryu.github.io/
